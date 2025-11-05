@@ -12,7 +12,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(__file__))
 from pydub import AudioSegment
-from dataloader.misc import read_and_config_file, get_file_extension
+from .misc import read_and_config_file, get_file_extension
 import librosa
 import random
 EPS = 1e-6
