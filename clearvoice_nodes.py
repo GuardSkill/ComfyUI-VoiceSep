@@ -15,7 +15,7 @@ sys.path.insert(0, current_dir)
 print(f"[ClearVoice Nodes] Current dir: {current_dir}")
 print(f"[ClearVoice Nodes] sys.path[0]: {sys.path[0]}")
 
-from clearvoice import ClearVoice
+from .clearvoice import ClearVoice
 
 
 class ClearVoiceModelLoader:
